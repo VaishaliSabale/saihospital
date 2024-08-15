@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Surgery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #f19e0e;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 1.2em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.description p {
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.surgery-section {
+    padding: 50px 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.surgery-section h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: hsl(27, 100%, 50%);
+    font-size: 2.5em;
+}
+
+.surgery-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.surgery-item {
+    flex: 1 1 calc(50% - 20px);
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.surgery-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.surgery-item h2 {
+    color: #343a40;
+    margin-bottom: 15px;
+}
+
+.surgery-item p {
+    color: #555;
+    line-height: 1.6;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>General Surgery</h1>
+    </header>
+    <main>
+        <section class="images">
+            <img src="./wp-content/uploads/2024/1.jpeg" alt="Happy child playing">
+            <img src="./wp-content/uploads/2024/11.jpeg" alt="Doctor examining child">
+            <img src="./wp-content/uploads/2024/111.jpeg" alt="Children learning together">
+        </section>
+        <section class="description">
+            <p>
+                General surgery encompasses a wide range of procedures. Here, we'll discuss common operations for various conditions, including:
+
+                Appendix (Appendectomy),
+                Gallbladder stones (Cholelithiasis),
+                Hernia,
+                Hydrocele,
+                Piles, fissure, fistula,
+                Intestinal obstruction,
+                Colonic obstruction,
+                Cancer surgery for the bowel.
+            </p>
+        </section>
+        <section class="surgery-section">
+            <div class="container">
+                <h1>General Surgery Operations</h1>
+                <div class="surgery-list">
+                    <div class="surgery-item">
+                        <h2>Appendectomy</h2>
+                        <p>Appendectomy is the surgical removal of the appendix, often performed to treat appendicitis.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Cholecystectomy</h2>
+                        <p>Cholecystectomy is the removal of the gallbladder, commonly due to gallstones (cholelithiasis).</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Hernia Repair</h2>
+                        <p>Hernia repair involves the surgical correction of hernias, which occur when an organ pushes through an opening in the muscle or tissue.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Hydrocele Repair</h2>
+                        <p>Hydrocele repair addresses the accumulation of fluid around a testicle, typically requiring surgical intervention.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Piles, Fissure, Fistula</h2>
+                        <p>Treatment for piles (hemorrhoids), fissures, and fistulas often involves surgical procedures to alleviate pain and discomfort.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Intestinal Obstruction</h2>
+                        <p>Surgery for intestinal obstruction aims to remove blockages that prevent the passage of contents through the intestines.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Colonic Obstruction</h2>
+                        <p>Colonic obstruction surgery addresses blockages in the colon, ensuring normal bowel function.</p>
+                    </div>
+                    <div class="surgery-item">
+                        <h2>Cancer Surgery for Bowel</h2>
+                        <p>Cancer surgery for the bowel involves removing cancerous growths to treat and prevent the spread of cancer.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
